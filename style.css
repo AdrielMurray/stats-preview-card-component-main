@@ -38,7 +38,6 @@ body {
 .container {
 
     display: flex;
-    align-items: center;
     justify-content: center;
     margin-top: 150px;
     
@@ -47,16 +46,32 @@ body {
 
 .left-card {
     background-color: hsl(244, 38%, 16%);
-   max-width: 30vw;
-   max-height: 41vh;
+    max-width: 30vw;
+    max-height: 42vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
 
 .right-card img {
    
-max-height: 40vh;
-max-width: 40vw;
+max-height: 41vh;
+max-width: 41vw;
+opacity: 0.5;
+width: 100%;
+height: 100%;
+margin-top: 1px;
 
+
+}
+
+.overlay {
+    background:hsl(277, 64%, 61%);
+    margin-top: 1px;
+    width: 100%;
+    height: 100%;
+    
 }
 
 h2 {
