@@ -58,21 +58,29 @@ body {
    
 max-height: 41vh;
 max-width: 41vw;
-opacity: 0.5;
 width: 100%;
 height: 100%;
 margin-top: 1px;
-
-
+object-fit: cover;
 }
 
-.overlay {
-    background:hsl(277, 64%, 61%);
-    margin-top: 1px;
-    width: 100%;
-    height: 100%;
+.right-card {
+
+    position: relative; 
     
+
 }
+
+
+
+
+.right-card::after {
+  position: absolute;
+    background-color:hsla(277, 64%, 61%);
+    margin-top: 1px;
+    opacity: 0.5;
+}
+
 
 h2 {
     font-family: 'Inter', sans-serif;
