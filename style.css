@@ -8,7 +8,7 @@ font-family: 'Lexend Deca', sans-serif;
 
 body {
 
-    
+    background-color:  hsl(233, 47%, 7%);
 }
 
 .footer-words {
@@ -40,7 +40,6 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 150px;
-    
      
 }
 
@@ -56,12 +55,17 @@ body {
 
 .right-card img {
    
-max-height: 41vh;
-max-width: 41vw;
+
 width: 100%;
-height: 100%;
-margin-top: 1px;
+
+display: block;
+height: 266.96px;
 object-fit: cover;
+
+opacity: 1.5;
+
+mix-blend-mode: multiply; /*(This will mix the original colour of the img and the background colour together to create the shady purple colour.)***/
+
 }
 
 .right-card {
