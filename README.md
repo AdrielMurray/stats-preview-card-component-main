@@ -19,7 +19,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Screenshot
 
-![x](./project-screenshot.png)
+![](./images/project-screenshot.png)
 
 
 
