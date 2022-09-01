@@ -32,6 +32,13 @@ body {
 
     color: hsla(0, 0%, 100%, 0.6);
     font-family: 'Lexend Deca', sans-serif;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.text .numbers {
+    
+    
     font-size: 15px;
 }
 
@@ -46,10 +53,12 @@ body {
 .left-card {
     background-color: hsl(244, 38%, 16%);
     max-width: 30vw;
-    max-height: 42vh;
+    max-height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     
 }
 
@@ -57,11 +66,11 @@ body {
    
 
 width: 100%;
-
+max-width: 30vw;
+max-height: 60vh;
 display: block;
-height: 266.96px;
+/*height: 266.96px;*/
 object-fit: cover;
-
 opacity: 1.5;
 
 mix-blend-mode: multiply; /*(This will mix the original colour of the img and the background colour together to create the shady purple colour.)***/
@@ -70,26 +79,28 @@ mix-blend-mode: multiply; /*(This will mix the original colour of the img and th
 
 .right-card {
 
-    position: relative; 
-    
+    position: relative;
+    background-color: hsla(277, 64%, 61%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 
 }
 
 
 
-
+/*
 .right-card::after {
   position: absolute;
     background-color:hsla(277, 64%, 61%);
     margin-top: 1px;
     opacity: 0.5;
 }
-
+*/
 
 h2 {
     font-family: 'Inter', sans-serif;
     color: white;
-
+    margin-left: 20px; 
     
 }
 .insights {
@@ -97,7 +108,26 @@ h2 {
 }
 
 .para1 {
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Inter', sans-serif;
     color: hsla(0, 0%, 100%, 0.75); 
+    margin-left: 20px; 
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 425px){
+
+    body{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .right-card img {
+      order: -1;
+    }
+
+
 }
