@@ -13,15 +13,13 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-## Overview
 
 
 
 ### Screenshot
 
-![](./project-screenshot)
+![x](./project-screenshot.png)
 
 
 
